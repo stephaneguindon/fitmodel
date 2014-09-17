@@ -182,8 +182,8 @@ int main(int argc, char **argv)
                 
                 min.quot -= hour.quot*60;
                   
-		Print_Param(tree->input->fp_output_stat,tree);
-                /* Print_Fp_Out(tree->input->fp_output_stat, t_beg, t_end, tree, input, n_data_sets); */
+		/* Print_Param(tree->input->fp_output_stat,tree); */
+                Print_Fp_Out(tree->input->fp_output_stat, t_beg, t_end, tree, input, n_data_sets);
                 
 /*                 Print_CSeq(tree->input->fp_output_stat,tree->data); */
 
