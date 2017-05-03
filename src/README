@@ -51,8 +51,23 @@ rate of  change between  neutrality and  positive selection)  while S2
 allows for differents rates of change between the different classes of
 dN/dS values.
 
+'fitmodel'      will      output       a      file      with      name
+your_sequence_file_fitmodel_stats.   This  file  gives  the  estimated
+values  of  the  codon  model   parameters,  namely  p0,  p1,  p2  the
+frequencies of  the negative, neutral and  positive selection regimes,
+along with  the corresponding dN/dS ratios  w0, w1 and w2.   Values of
+other parameters are  also given if a 'switching' model  was fitted to
+the data.   delta gives the  rate of change (or  substitution) between
+negative  selection and  a  neutral regime.   The product  delta*alpha
+gives  the rate  of  change between  negative  and positive  selection
+classes while delta*beta  gives the rate of  change between neutrality
+and  positive selection.   meanswitch is  the average  of these  rates
+weighted by  the corresponding selection class  frequencies.  R01, R02
+and R03 are extra parameters that correspond to delta, delta*alpha and
+delta*beta divided by meanswitch respectively.
+
 If you are using a 'switching' model, 'fitmodel' will output file with
-the        follwoing        names:        your_sequence_file_trees_w1,
+the        following        names:        your_sequence_file_trees_w1,
 your_sequence_file_trees_w2,      your_sequence_file_trees_w3      and
 your_sequence_file_trees_wbest.   The w1,  w2  and w3  files give  the
 estimated tree  with probabilities  of w1, w2,  and w3  (three maximum
