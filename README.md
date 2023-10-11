@@ -106,8 +106,7 @@ was generated using the following command-line:
 
 ====
 
-Need more help? Contact me: s.guindon@auckland.ac.nz
-
+Need more help? Contact me: stephane.guindon@lirmm.fr
 
 
 BIBLIOGRAPHY
